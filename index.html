@@ -35,55 +35,56 @@
 <body class="font-Lato">
     <!-- header start -->
 
-    <header class="max-w-[1440px] mx-auto md:px-16 lg:px-2 py-5 my-10 " >
+    <header class="max-w-[1440px] mx-auto md:px-16 lg:px-2  my-2 lg:my-10 " >
+      
+
+
+
+
+
         <!-- nav start -->
-        <!-- <nav class= " lg:h-28 md:bg-[#F85559] rounded-[600px] lg:pl-10  flex justify-between items-center lg:gap-20 mb-20">
+        <nav class=" max-w-[1440px] mx-auto md:px-16 lg:px-2 py-5 my-10 md:bg-red-400 rounded-[600px]">
+          <div class=" flex flex-row items-center  lg:gap-x-16 ">
+              <div class="">
+                <div class="dropdown">
+                  <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                  </label>
+                  <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    <li><a><input type="text" placeholder="Search here" class="input input-bordered  w-10/12 md:w-auto" /></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class=" flex justify-start items-start  hidden lg:flex">
+                <ul class="menu menu-horizontal text-white text-2xl">
+                  <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                </ul>
+              </div>
+              <div class="navbar-center">
+                 <div class="flex lg:pl-5 gap-3 justify-center items-center">
+                  <img class="w-10" src="./images/logo.png" alt="">
+                  <h3 class="text-2xl md:text-white lg:text-5xl font-extrabold" >Fruit-Brust</h3>
+                 </div>
+              </div>
 
-            <div class="grid lg:grid-cols-3  justify-center items-center md:text-white">
-                <div class="invisible md:visible lg:visible">
-                     menu bar 
-                    <ul class=" flex gap-14 text-lg  ">
-                        <li><a>Home</a></li>
-                        <li><a>About Us</a></li>
-                        <li><a>Shop</a></li>
-                        <li><a>All Fruits</a></li>
-                      </ul>
+              <div class=" static form-control md:pl-7 invisible md:visible">
+                  <div class="relative">
+                      <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto" />
+                  <img class="w-5 absolute lg:left-48 lg:top-3" src="./images/magnifying-glass-solid.svg" alt="">
+                  </div>
+                  
                 </div>
 
-                logo 
-                <div >
-                    <div class="flex flex-row gap-5 w-11/12 md:justify-center md:items-center">
-                        <img src="./images/logo.png" alt="">
-                        <h3 class=" text-xl md:text-5xl font-extrabold ">Fruit-Brust</h3>
 
-                        <div class="dropdown  lg:hidden">
-                            <label tabindex="0" class="btn btn-ghost btn-circle">
-                              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                            </label>
-                            <ul tabindex="0" class="menu  dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box ">
-                              <li><a>Home</a></li>
-                              <li><a>About Us</a></li>
-                              <li><a>Shop</a></li>
-                              <li><a>All Fruits</a></li>
-                              
-                            </ul>
-                          </div>
-                    </div>
+      </nav>
 
-                    
-                </div>
-
-                 search bar 
-
-                <div class="relative lg:pl-52 invisible md:visible lg:visible ">
-                    <input id="search" type="text" placeholder="Search here" class=" rounded-2xl input  input-info w-full "  />
-                    <i class="fa fa-solid fa-magnifying-glass absolute top-2 left-[400px] text-3xl text-black"></i>
-                </div>
-
-            </div>
-
-             nav end 
-        </nav> -->
 
         <!-- banner slider section start -->
 
@@ -91,7 +92,7 @@
   
             <div>
   
-              <div class="carousel w-11/12 lg:carousel w-full">
+              <div class="carousel w-11/12 lg:carousel w-full lg:z-10 lg:relative">
                
                <!-- slide-1 -->
                <div id="slide1" class="carousel-item relative w-full">
@@ -189,6 +190,41 @@
       
           </section>
           <!-- banner  slider end -->
+
+          <div class=" hidden lg:block">
+
+            <div class=" w-[1150px] lg:grid grid-cols-5 gap-15 justify-center items-center lg:absolute lg:ml-28 mb-10 bg-white z-30 lg:-mt-20">
+              <div class="flex flex-col gap-1 justify-center items-center">
+               <img src="./images/fruit1.png" alt="">
+               <h4 class="text-2xl">Grapes</h4>
+              </div>
+   
+              <div class="flex flex-col gap-1 justify-center items-center">
+               <img src="./images/fruit2.png" alt="">
+               <h4 class="text-2xl">Orange</h4>
+              </div>
+   
+              <div class="flex flex-col gap-1 justify-center items-center">
+               <img src="./images/fruit3.png" alt="">
+               <h4 class="text-2xl">Mango</h4>
+              </div>
+   
+              <div class="flex flex-col gap-1 justify-center items-center">
+               <img src="./images/fruit4.png" alt="">
+               <h4 class="text-2xl">Strawberry</h4>
+              </div>
+   
+              <div class="flex flex-col gap-1 justify-center items-center">
+               <img src="./images/fruit5.png" alt="">
+               <h4 class="text-2xl">pomegranate</h4>
+              </div>
+   
+             </div>
+          </div>
+
+
+
+
     </header>
     <!-- header end -->
 
@@ -197,7 +233,7 @@
 
     <main>
         <!-- deal of the day section start -->
-        <section class="max-w-[1440px] mx-auto md:px-16 lg:px-2 py-5 my-10 ">
+        <section class="max-w-[1440px] lg:mt-40 mx-auto md:px-16 lg:px-2 py-5 my-10 ">
             <div>
 
                 <div class="flex flex-col md:flex-row justify-center gap-10 lg:gap-80 items-center mb-10">
@@ -503,17 +539,17 @@
 
                 </div>
 
-                <div class="w-auto">
+                <div class="w-auto px-5">
                     <!-- image box -->
                     <img src="./images/whychoose1.png" alt="">
 
 
                 </div>
 
-                <div>
+                <div class=" flex flex-col justify-between items-center px-4 gap-9  ">
                     <!-- right text box -->
 
-                    <div class=" flex flex-row-reverse justify-center items-center gap-3 py-5 px-1 shadow-lg ">
+                    <div class=" flex flex-row-reverse justify-center items-center px-1 shadow-lg ">
                         <div class="">
                             <span class="text-5xl pl-5 ">
                                 <i class="fa-solid fa-apple-whole" style="color: #c0c0c0;"></i>
@@ -578,8 +614,8 @@
             <img src="./images/logo.png" alt="">
             <h2 class="text-2xl lg:text-5xl text-white font-extrabold">Fruit-Brust</h2>
         </div>
-        <div class="grid grid-flow-col text-
-        4xl gap-3 lg:gap-8 text-white">
+        <div class="grid grid-cols-3 md:grid-cols-6 text-xs lg:text-
+        4xl gap-5 lg:gap-8 text-white">
           <a class="link link-hover">Home</a> 
           <a class="link link-hover">About us</a> 
           <a class="link link-hover">Shop</a> 
