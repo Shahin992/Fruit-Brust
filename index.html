@@ -37,20 +37,15 @@
 
     <header class="max-w-[1440px] mx-auto md:px-16 lg:px-2  my-2 lg:my-10 " >
       
-
-
-
-
-
         <!-- nav start -->
         <nav class=" max-w-[1440px] mx-auto md:px-16 lg:px-2 py-5 my-10 md:bg-red-400 rounded-[600px]">
-          <div class=" flex flex-row items-center  lg:gap-x-16 ">
+          <div class=" flex flex-row  lg:items-center  lg:gap-x-16 ">
               <div class="">
-                <div class="dropdown">
+                <div class="dropdown pr-10 ">
                   <label tabindex="0" class="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                   </label>
-                  <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52">
+                  <ul tabindex="0" class="menu menu-sm  dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52 ">
                       <li><a>Home</a></li>
                       <li><a>About Us</a></li>
                       <li><a>Shop</a></li>
@@ -88,11 +83,11 @@
 
         <!-- banner slider section start -->
 
-        <section >
+        <section>
   
             <div>
   
-              <div class="carousel w-11/12 lg:carousel w-full lg:z-10 lg:relative">
+              <div class="carousel w-11/12  lg:carousel w-full lg:z-10 lg:relative">
                
                <!-- slide-1 -->
                <div id="slide1" class="carousel-item relative w-full">
@@ -256,15 +251,15 @@
                             <p class=" text-2xl lg:text-2xl"> <span class=" lg:text-5xl font-extrabold pb-6">29</span> <br>
                                 Days
                             </p>
-                            <p class="text-3xl lg:text-5xl">:</p>
+                            <p class="text-2xl lg:text-5xl">:</p>
                             <p class=" text-2xl lg:text-2xl"> <span class=" lg:text-5xl font-extrabold pb-6">15</span> <br>
                                 Hours
                             </p>
-                            <p class="text-3xl lg:text-5xl">:</p>
+                            <p class="text-2xl lg:text-5xl">:</p>
                             <p class=" text-2xl lg:text-2xl"> <span class=" lg:text-5xl font-extrabold pb-6">25</span> <br>
                                 Minutes
                             </p>
-                            <p class="text-3xl lg:text-5xl">:</p>
+                            <p class="text-2xl lg:text-5xl">:</p>
                             <p class=" text-2xl lg:text-2xl"> <span class=" lg:text-5xl font-extrabold pb-6">08</span> <br>
                                 Second
                             </p>
@@ -285,15 +280,15 @@
                               <div>
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                   </div>
                               </div>
                               <div class="card-actions justify-center">
                                 <!-- Open the modal using ID.showModal() method -->
-                                <button class="btn" onclick="my_modal_2.showModal()">Details</button>
+                                <button class="btn text-[#F85559]" onclick="my_modal_2.showModal()">Details</button>
                                 <dialog id="my_modal_2" class="modal">
                                   <form method="dialog" class="modal-box">
                                    
@@ -346,7 +341,7 @@
                           <div class="card-actions justify-center">
                             <div class="card-actions justify-center">
                               <!-- Open the modal using ID.showModal() method -->
-                              <button class="btn" onclick="my_modal_3.showModal()">Details</button>
+                              <button class="btn text-[#F85559]" onclick="my_modal_3.showModal()">Details</button>
                               <dialog id="my_modal_3" class="modal">
                                 <form method="dialog" class="modal-box">
                                  
@@ -400,7 +395,7 @@
                               <div class="card-actions justify-center">
                                 <div class="card-actions justify-center">
                                   <!-- Open the modal using ID.showModal() method -->
-                                  <button class="btn" onclick="my_modal_4.showModal()">Details</button>
+                                  <button class="btn text-[#F85559]" onclick="my_modal_4.showModal()">Details</button>
                                   <dialog id="my_modal_4" class="modal">
                                     <form method="dialog" class="modal-box">
                                      
@@ -454,7 +449,7 @@
                           <div class="card-actions justify-center">
                             <div class="card-actions justify-center">
                               <!-- Open the modal using ID.showModal() method -->
-                              <button class="btn" onclick="my_modal_5.showModal()">Details</button>
+                              <button class="btn text-[#F85559]" onclick="my_modal_5.showModal()">Details</button>
                               <dialog id="my_modal_5" class="modal">
                                 <form method="dialog" class="modal-box">
                                  
@@ -504,7 +499,7 @@
 
 
 
-       <section class="max-w-[1440px] mx-auto md:px-16 lg:px-2 py-5 my-10 ">
+       <section class="max-w-[1440px] mx-auto px-2 md:px-16 lg:px-2 py-5 my-10 ">
 
 
         <div class="flex justify-center items-center">
@@ -607,19 +602,21 @@
 
                 <div>
                     <!-- left text-box -->
-                    <div class=" flex flex-col justify-between items-center px-4 gap-9  ">
+                    <div class=" flex flex-col justify-between items-center px-4 gap-7  ">
                         <!-- text -->
         
         
-                        <div class=" flex justify-center items-center gap-3 py-3 px-1 shadow-lg ">
+                        <div class=" flex justify-center items-center gap-3 py-2 px-1 shadow-lg ">
                             <div class="">
                                 <span class="text-5xl pr-5 ">
                                     <i class="fa-solid fa-users" style="color: #c0c0c0;"></i>
                                 </span>
                             </div>
                            <div>
-                            <h3 class="text-2xl font-extrabold mb-2 text-[#121212]">Dedicated Team</h3>
-                            <hr>
+                            <div class="border-b-4 w-[200px] border-black  mb-1">
+                              <h3 class="text-2xl font-extrabold mb-2 text-[#121212] ">Dedicated Team</h3>
+                            </div>
+                            
                             <p class="font-semibold text-1xl">
                                 Professional employees are there for you to pick <br>
                                 the most amazing and fresh fruits.
@@ -627,15 +624,17 @@
                            </div>
                         </div>
         
-                        <div class=" flex justify-center items-center gap-3 py-3 px-1 shadow-lg ">
+                        <div class=" flex justify-center items-center gap-3 py-2 px-1 shadow-lg ">
                             <div class="">
                                 <span class="text-5xl pr-5 ">
                                     <i class="fa fa-light fa-heart-circle-bolt" style="color: #c0c0c0;"></i>
                                 </span>
                             </div>
                            <div>
-                            <h3 class="text-2xl font-extrabold mb-2 text-[#121212]"> Fresh is Best</h3>
-                            <hr>
+                            <div class="border-b-4 w-[200px] border-black  mb-1">
+                              <h3 class="text-2xl font-extrabold mb-2 text-[#121212] ">Fresh is Best</h3>
+                            </div>
+          
                             <p class="font-semibold text-1xl">
                                 Professional employees are there for you to pick <br>
                                 the most amazing and fresh fruits.
@@ -644,15 +643,16 @@
                         </div>
         
         
-                        <div class=" flex justify-center items-center gap-3 py-3 px-1 shadow-lg ">
+                        <div class=" flex justify-center items-center gap-3 py-2 px-1 shadow-lg ">
                             <div class="">
                                 <span class="text-5xl pr-5 ">
                                     <i class="fa-solid fa-gifts" style="color: #c0c0c0;"></i>
                                 </span>
                             </div>
                            <div>
-                            <h3 class="text-2xl font-extrabold mb-2 text-[#121212]">Gift Certificates</h3>
-                            <hr>
+                            <div class="border-b-4 w-[200px] border-black  mb-1">
+                              <h3 class="text-2xl font-extrabold mb-2 text-[#121212] ">Gift Certificates</h3>
+                            </div>
                             <p class="font-semibold text-1xl">
                                 Professional employees are there for you to pick <br>
                                 the most amazing and fresh fruits.
@@ -672,7 +672,7 @@
 
                 </div>
 
-                <div class=" flex flex-col justify-between items-center px-4 gap-9  ">
+                <div class=" flex flex-col justify-between items-center px-4 gap-5  ">
                     <!-- right text box -->
 
                     <div class=" flex flex-row-reverse justify-center items-center px-1 shadow-lg ">
@@ -681,9 +681,10 @@
                                 <i class="fa-solid fa-apple-whole" style="color: #c0c0c0;"></i>
                             </span>
                         </div>
-                       <div class="text-end">
-                        <h3 class="text-2xl font-extrabold mb-2 text-[#121212]">Integrated Supplier</h3>
-                        <hr>
+                       <div class="flex flex-col justify-end items-end text-end py-2">
+                        <div class="border-b-4 w-[240px] border-black  mb-1">
+                          <h3 class="text-2xl font-extrabold mb-2 text-[#121212] ">Integrated Supplier</h3>
+                        </div>
                         <p class="font-semibold text-1xl">
                             Professional employees are there for you to pick <br>
                             the most amazing and fresh fruits.
@@ -692,16 +693,18 @@
                     </div>
 
 
-                    <div class=" flex flex-row-reverse justify-center items-center gap-3 py-5 px-1 shadow-lg ">
+                    <div class=" flex flex-row-reverse justify-center items-center  py-2 px-1 shadow-lg ">
                         <div class="">
                             <span class="text-5xl pl-5 ">
                                 <i class="fa-solid fa-ice-cream" style="color: #c0c0c0;"></i>
                             </span>
                         </div>
-                       <div class="text-end">
-                        <h3 class="text-2xl font-extrabold mb-2 text-[#121212]">Sustainable Practice</h3>
-                        <hr>
+                        <div class="flex flex-col justify-end items-end text-end py-2">
+                          <div class="border-b-4 w-[240px] border-black  mb-1">
+                            <h3 class="text-2xl font-extrabold mb-2 text-[#121212] ">Sustainable Practice</h3>
+                          </div>
                         <p class="font-semibold text-1xl">
+                          
                             Professional employees are there for you to pick <br>
                             the most amazing and fresh fruits.
                         </p>
@@ -709,16 +712,18 @@
                     </div>
 
 
-                    <div class=" flex flex-row-reverse justify-center items-center gap-3 py-5 px-1 shadow-lg ">
+                    <div class=" flex flex-row-reverse justify-center items-center  py-2 px-1 shadow-lg ">
                         <div class="">
                             <span class="text-5xl pl-5 ">
                                 <i class="fa-solid fa-thumbs-up" style="color: #c0c0c0;"></i>
                             </span>
                         </div>
-                       <div class="text-end">
-                        <h3 class="text-2xl font-extrabold mb-2 text-[#121212]">The Benefits Only</h3>
-                        <hr>
+                        <div class="flex flex-col justify-end items-end text-end py-2">
+                          <div class="border-b-4 w-[240px] border-black  mb-1">
+                            <h3 class="text-2xl font-extrabold mb-2 text-[#121212] ">The Benefits Only</h3>
+                          </div>
                         <p class="font-semibold text-1xl">
+                          
                             Professional employees are there for you to pick <br>
                             the most amazing and fresh fruits.
                         </p>
